@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*trae todos lo que esta en los archivos sueltos*/ /*paleta de colores*/
+/*tamaños de fuentes e iconos*/
+/*resoluciones de pantalla*/
+/*espacios*/
+/*fuente*/
+/*mixins*/
+/*bolsitas de codigo*/
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8f9fb;
+  color: #525652;
+}
+
+.nav-link:hover,
+.navbar-nav .nav-link.active:hover {
+  color: #11b742;
+}
+
+.carousel-item img {
+  height: 250px;
+}
+
+@media (min-width: 768px) {
+  .carousel-item img {
+    height: 70vh;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-item img {
+    height: 80vh;
+  }
+}
+h1, h2 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/*# sourceMappingURL=styles.css.map */

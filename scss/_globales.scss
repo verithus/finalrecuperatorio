@@ -1,0 +1,33 @@
+body{
+    font-family: $fuente-principal;
+    background-color: $color-primario;
+    color: $color-secundario;
+}
+
+.nav-link,
+.navbar-nav .nav-link.active{
+    &:hover{
+        color:$color-terciario;
+    }
+}
+
+.carousel-item img{
+    height: 250px;
+}
+
+@media (min-width:$tablet){
+    .carousel-item img{
+        height: 70vh;
+    }
+}
+
+@media (min-width: $desktop){
+    .carousel-item img{
+        height: 80vh;
+    }
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: $espacio-medio;
+}
